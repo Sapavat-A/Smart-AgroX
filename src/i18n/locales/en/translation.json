@@ -1,5 +1,6 @@
 {
   "common": {
+    "yieldPrediction": "Yield Prediction",
     "home": "Home",
     "dashboard": "Dashboard",
     "soilLab": "Soil Lab",

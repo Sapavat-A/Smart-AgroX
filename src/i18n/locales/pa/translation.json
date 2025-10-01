@@ -411,6 +411,7 @@
       "clickToUpload": "ਅਪਲੋਡ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ",
       "jpgPngUpTo5MB": "JPG, PNG 5MB ਤੱਕ",
       "analyzeCropHealth": "ਫਸਲ ਸਿਹਤ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰੋ"
+
     },
     "weather": {
       "sunny": "ਧੁੱਪ",
@@ -424,6 +425,7 @@
       "wind": "ਹਵਾ",
       "todayWeather": "ਅੱਜ ਦਾ ਮੌਸਮ",
       "sunnyClearSky": "ਧੁੱਪ, ਸਾਫ ਅਸਮਾਨ"
+
     },
     "pestAnalysis": {
       "title": "ਕੀਟ ਵਿਸ਼ਲੇਸ਼ਣ",
@@ -443,6 +445,7 @@
       "clickToUpload": "ਅਪਲੋਡ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ",
       "imageFormat": "JPG, PNG 5MB ਤੱਕ",
       "analyzeCropHealth": "ਫਸਲ ਸਿਹਤ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰੋ"
+      
     },
     "seasonalInformation": {
       "idealCrops": "ਆਦਰਸ਼ ਫਸਲਾਂ",

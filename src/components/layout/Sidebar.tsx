@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
+
 import { 
   Home, 
   LayoutDashboard, 
@@ -20,7 +21,12 @@ import {
   CloudRain,
   Star,
   Satellite,
-  Menu
+  Menu,
+  TrendingUp,
+  TrendingDown,
+  AlertTriangle,
+  Bell,
+  Target,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import './sidebar.css';
@@ -62,6 +68,17 @@ const sidebarItems: SidebarItem[] = [
     color: 'bg-agri-green/10 text-agri-green',
     translationKey: 'common.dashboard',
     category: 'main'
+  },
+  { 
+    name: 'YieldXPredictor', 
+    icon: TrendingUp, 
+    href: '/yield-prediction',
+    color: 'bg-gradient-to-r from-purple-500/30 to-indigo-500/30 text-purple-700 border-2 border-purple-300/50',
+    translationKey: 'common.yieldPrediction',
+    category: 'main',
+    featured: true,
+    badge: '🔮 AI',
+    description: '📊 ML-Powered Yield Forecasting with Multimodal Data',
   },
   { 
     name: 'AgriBuddy', 

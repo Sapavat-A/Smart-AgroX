@@ -21,6 +21,7 @@ import Founders from "./pages/Founders";
 import Farm from "./pages/Farm";
 import AgroVision from "./pages/AgroVision";
 import AgriBuddy from './pages/AgriBuddy';
+import YieldPredictionPage from './pages/YieldPredictionPage';
 import { AuthProvider } from "./contexts/AuthContext";
 import { LanguageProvider } from "./contexts/LanguageContext";
 import ProtectedRoute from "./components/auth/ProtectedRoute";
@@ -73,6 +74,7 @@ const App = () => (
               <Route path="/farm" element={<Farm />} />
               <Route path="/agrovision" element={<AgroVision />} />
               <Route path="/agribuddy" element={<AgriBuddy />} />
+              <Route path="/yield-prediction" element={<YieldPredictionPage />} />
               
               {/* Authentication routes */}
               <Route path="/login" element={<Login />} />
