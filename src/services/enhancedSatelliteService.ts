@@ -140,7 +140,7 @@ export const fetchEnhancedNdviData = async (
     console.log('Date range:', fromDate, 'to', toDate);
     
     try {
-      const response = await axios.post('http://localhost:8000/ndvi-analysis', {
+      await axios.post('https://smart-agrox.onrender.com/ndvi-analysis',{
         polygon,
         from_date: fromDate,
         to_date: toDate
@@ -167,7 +167,7 @@ export const fetchEnhancedNdviData = async (
  */
 export const testSentinelHubConnection = async (): Promise<boolean> => {
     try {
-      const response = await axios.post('http://localhost:8000/test-connection');
+      const response = await axios.post('https://smart-agrox.onrender.com/test-connection')
       return response.data.status === 'success';
     } catch (error) {
       console.error('Connection test failed:', error);

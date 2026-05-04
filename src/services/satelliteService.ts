@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // This would come from environment variables in a real implementation
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = 'https://smart-agrox.onrender.com/api';
 
 // Add this satellite API implementation
 const satelliteApi = {
